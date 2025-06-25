@@ -1,55 +1,58 @@
 # Elevate Cybersecurity Internship Projects – Suraj Mishra
 
-This repository contains two projects completed during my 2-week Elevate Cybersecurity Internship. Each project demonstrates practical knowledge of cybersecurity tools and techniques in both offensive and defensive domains.
+This repository contains two cybersecurity projects developed as part of the Elevate Cybersecurity Internship. Both projects reflect hands-on application of core cybersecurity techniques using Python and related tools.
 
 ---
 
-## 1. Web Vulnerability Scanner
+## Project 1: Web Vulnerability Scanner
 
 **Description**:  
-A Python-based tool to identify basic web application vulnerabilities.
+A command-line Python tool designed to detect common web application vulnerabilities.
 
 **Key Features**:
-- Scans for SQL Injection and XSS
-- Detects clickjacking and open redirect issues
-- Command-line tool with clear output
+- SQL Injection and XSS detection
+- Clickjacking and Open Redirect checks
+- Simple output in terminal
 
 **Technologies Used**:
 - Python
 - Requests
 - BeautifulSoup
-- Regex
-
-📁 [View Project](./web-vulnerability-scanner)
 
 ---
 
-## 2. Cyber Threat Intelligence Dashboard
+## Project 2: Cyber Threat Intelligence Dashboard
 
 **Description**:  
-A dashboard that collects and displays threat intelligence using public threat feeds and APIs.
+A threat intelligence dashboard that pulls data from public APIs and presents insights through a web interface.
 
 **Key Features**:
-- IP/domain lookup using APIs
-- Real-time threat data visualization
-- Simple and clean Streamlit interface
+- IP/domain threat lookups
+- Real-time data visualization
+- Web interface using Streamlit
 
 **Technologies Used**:
 - Python
 - Streamlit
-- REST APIs (AbuseIPDB, etc.)
-
-📁 [View Project](./cyber-threat-intelligence-dashboard)
+- Threat Intelligence APIs
 
 ---
 
-## Submission Details
+## How to Use This Repository
 
-- **Intern Name**: Suraj Mishra  
+1. Clone or download the repository.
+2. Navigate into each project folder:
+   - `web-vulnerability-scanner/`
+   - `cyber-threat-intelligence-dashboard/`
+3. Follow the instructions inside each folder’s `README.md` (after uploading them).
+4. Make sure required Python packages are installed.
+
+---
+
+## Submission Info
+
+- **Name**: Suraj Mishra  
 - **Program**: Elevate Cybersecurity Internship  
 - **Duration**: 2 Weeks  
-- **Submission Date**: June 25, 2025
-
----
-
+- **Date**: June 25, 2025
 
